@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "159822982878",
+    "firebase_url": "https://jewel-o-track.firebaseio.com",
+    "project_id": "jewel-o-track",
+    "storage_bucket": "jewel-o-track.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159822982878:android:1cb2cba67d7a3861",
+        "android_client_info": {
+          "package_name": "com.jewel.admin.jewel_new"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159822982878-s8lv1cs576o8tapf9c2d05i4v8vnkn36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN_iplpD_gFGhiEHgtQBe2lBCyqF8TgWc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

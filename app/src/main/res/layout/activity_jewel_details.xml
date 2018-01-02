@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_a_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.jewel.admin.jewel_new.JewelDetails">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Jewel1_spec"
+        android:paddingTop="5dp"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/details">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingLeft="30dp">
+
+                    <TextView
+                        android:text="Jewel Type :"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView14"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:textColor="#B2EBF2"
+                        android:layout_marginTop="5dp" />
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView_type"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:paddingLeft="30dp">
+
+                    <TextView
+                        android:text="Weight         :"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView12"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:textColor="#B2EBF2" />
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView_Wt"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingLeft="30dp">
+
+                    <TextView
+                        android:text="Size              :"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView10"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:textColor="#B2EBF2" />
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView_size"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingLeft="30dp">
+
+                    <TextView
+                        android:text="Color            :"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView7"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:textColor="#B2EBF2" />
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView_color"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingLeft="30dp">
+
+                    <TextView
+                        android:text="Certified       :"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView16"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:textColor="#B2EBF2" />
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView_cert"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingLeft="30dp">
+
+                    <TextView
+                        android:text="Price             :"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView17"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:textColor="#B2EBF2" />
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView_price"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:text="Contact"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:id="@+id/contact"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/details"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView_sell"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="180dp" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/Jewel1_spec"
+        android:text="SPECIFICATIONS:"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="30dp"
+        android:layout_below="@+id/image1"
+        android:layout_alignParentLeft="true"
+        android:textColor="#F8BBD0"
+        android:textStyle="normal|italic" />
+
+    <com.jewel.admin.jewel_new.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="18dp"
+        android:id="@+id/image1"
+        android:layout_below="@+id/Jewel_Text1"
+        android:layout_centerHorizontal="true"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#B2EBF2"/>
+
+    <TextView
+        android:text="Jewel IJSC:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Jewel_Text1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#B2EBF2"
+        android:layout_alignBaseline="@+id/ifsc1"
+        android:layout_alignBottom="@+id/ifsc1"
+        android:layout_alignLeft="@+id/image1"
+        android:layout_marginLeft="50dp" />
+
+    <TextView
+        android:id="@+id/ifsc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="27dp"
+        android:textColor="#EF9A9A"
+        android:textStyle="normal|bold"
+        android:layout_toRightOf="@+id/Jewel_Text1"
+        />
+
+</RelativeLayout>
